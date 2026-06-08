@@ -1,6 +1,6 @@
 # EcoStream Real Dashboard - Smart Streaming Monitor
 
-## 🎯 What This Is
+## What This Is
 
 A **real-time monitoring system** that uses actual system APIs to provide intelligent quality recommendations for video streaming platforms (Zoom, Teams, Google Meet).
 
@@ -12,7 +12,7 @@ A **real-time monitoring system** that uses actual system APIs to provide intell
 ✅ **Smart Recommendations** - Tells you optimal quality  
 ✅ **Savings Tracking** - Measures actual impact  
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Get Free API Key
 Go to: https://www.co2signal.com/  
@@ -38,7 +38,7 @@ npm start
 
 Browser opens at http://localhost:3000
 
-## 💡 How to Use
+## How to Use
 
 1. **Start Monitoring** - Click "Start Monitoring" button
 2. **View Recommendations** - System shows optimal quality
@@ -46,7 +46,7 @@ Browser opens at http://localhost:3000
 4. **Update Dashboard** - Select current quality in dropdown
 5. **Track Savings** - View energy and carbon savings
 
-## 📊 What You'll See
+## What You'll See
 
 - Real battery level (from your laptop)
 - Real carbon intensity (from CO2Signal API)
@@ -55,19 +55,10 @@ Browser opens at http://localhost:3000
 - Energy/carbon savings
 - Decision history
 
-## 🎓 For Your Defense
-
-**Demo Script:**
-1. Show real battery reading
-2. Show real carbon data
-3. Start monitoring
-4. Explain recommendation
-5. Show savings calculation
-
 **Key Point:**  
 "Since Zoom/Teams don't have public APIs, the system provides intelligent recommendations that users implement manually. This is honest, practical, and shows measurable impact."
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ecostream-real-complete/
@@ -91,7 +82,7 @@ ecostream-real-complete/
 └── package.json
 ```
 
-## ✅ API Integration
+## API Integration
 
 **Battery Status API:**
 ```javascript
@@ -113,7 +104,7 @@ const connection = navigator.connection;
 console.log(connection.effectiveType);
 ```
 
-## 🎯 Supervised Requirements Met
+## Supervised Requirements Met
 
 ✅ Real battery monitoring (not simulated)  
 ✅ Real carbon awareness (API integration)  
@@ -122,7 +113,7 @@ console.log(connection.effectiveType);
 ✅ Works with streaming (Zoom/Teams/Meet)  
 ✅ Measurable savings  
 
-## 📝 Note
+## Note
 
 This system provides **recommendations** rather than automatic control because:
 - Zoom, Teams, Meet are proprietary applications
@@ -130,7 +121,7 @@ This system provides **recommendations** rather than automatic control because:
 - Manual implementation is honest and practical
 - Still demonstrates real sustainability impact
 
-## 🚀 Built With
+## Built With
 
 - React 18.2.0
 - Browser APIs (Battery, Network, Geolocation)
